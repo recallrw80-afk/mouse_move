@@ -81,7 +81,7 @@ exe = EXE(
     a.datas,  # 数据文件
     [],
     name='mouse_move',  # 输出 exe 文件名（不含 .exe）
-    debug=True,  # 调试模式打开，方便排查
+    debug=False,  # 关闭调试输出
     bootloader_ignore_signals=False,  # 不忽略信号
     strip=False,  # 不裁剪符号
     upx=True,  # UPX 压缩
