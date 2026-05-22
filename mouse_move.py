@@ -113,12 +113,12 @@ def main():
     args = p.parse_args()
 
     # 决定坐标来源：--image 优先，否则用位置参数
-    x, y = None, None
     if args.image:
         x, y = locate_image(args.image)
     else:
         if args.x is None or args.y is None:
             p.error("请指定坐标 (x y) 或使用 --image 定位")
+        x, y = args.x, args.y
 
     # 执行动作
     if args.drag:

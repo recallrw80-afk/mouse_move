@@ -23,7 +23,7 @@ exe = EXE(
     a.datas,
     [],
     name='mouse_move',
-    debug=False,
+    debug=True,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,

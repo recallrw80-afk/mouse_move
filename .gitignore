@@ -1,3 +1,10 @@
-.claude/
-build
-dist
+# 忽略所有
+*
+
+# 仅允许以下文件/目录被跟踪
+!.gitignore
+!mouse_move.py
+!mouse_move.spec
+!README.md
+!mouse-control/
+!mouse-control/**
