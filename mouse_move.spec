@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['move.py'],
+    ['mouse_move.py'],
     pathex=[],
     binaries=[],
     datas=[],
